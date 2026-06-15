@@ -1,0 +1,36 @@
+{
+  "name": "@nilamdoc/deskmobile-api",
+  "version": "1.0.0",
+  "description": "Independent DeskMobile QR linking API using Node.js, Express, and MongoDB.",
+  "type": "module",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "tsx src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "keywords": [
+    "deskmobile",
+    "qr",
+    "api",
+    "express",
+    "mongodb",
+    "device-link"
+  ],
+  "author": "Nilam Doctor",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongodb": "^6.12.0",
+    "nanoid": "^5.0.9"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
